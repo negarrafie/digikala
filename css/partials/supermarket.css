@@ -1,0 +1,108 @@
+.supermarket {
+  width: 1315px;
+  height: 110px;
+  background-image: url(../../images/supermarket/background.svg);
+  background-repeat: no-repeat;
+  background-color: #edefed;
+  margin: 20px 15px;
+  border-radius: 20px;
+  display: flex;
+  cursor: pointer;
+  .menu_right {
+    width: 520px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    column-gap: 20px;
+    .basket {
+      align-items: center;
+      display: flex;
+      padding-right: 40px;
+      & img {
+        width: 66px;
+        height: 62px;
+      }
+    }
+    .wonderful_supermarket {
+      display: flex;
+      align-items: center;
+      & img {
+        width: 250px;
+        height: 28px;
+      }
+    }
+    .text {
+      display: flex;
+      align-items: center;
+      height: inherit;
+      .discount {
+        font-family: var(--font-family-homa);
+        color: whitesmoke;
+        background-color: #39ae00;
+        border-radius: 50px;
+        font-size: 16px;
+        padding: 0 10px;
+      }
+    }
+  }
+  .menu_left {
+    width: 790px;
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 5px;
+    align-items: center;
+    justify-content: flex-end;
+    .product {
+      width: 75px;
+      height: 75px;
+      background-color: white;
+      border-radius: 50%;
+      & img {
+        width: 58px;
+        height: 58px;
+        object-fit: contain;
+        padding-right: 12px;
+        padding-top: 10px;
+      }
+      .percent {
+        width: 35px;
+        height: 22px;
+        border-radius: 16px;
+        background-color: #d32f2f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & p {
+          color: white;
+          font-size: 12px;
+          font-weight: bold;
+        }
+      }
+    }
+    .more__product {
+      width: 145px;
+      height: 50px;
+      border-radius: 72px;
+      background-color: white;
+      display: flex;
+      flex-flow: row-reverse wrap;
+      justify-content: center;
+      align-items: center;
+      column-gap: 3px;
+      & h4 {
+        font-family: var(--font-family);
+        color: #39ae00;
+        font-size: 12px;
+      }
+      & h5 {
+        font-family: var(--font-family);
+        color: #39ae00;
+        font-size: 12px;
+      }
+      & svg {
+        margin-right: 10px;
+        margin-bottom: 3px;
+      }
+    }
+  }
+}

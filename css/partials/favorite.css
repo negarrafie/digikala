@@ -1,0 +1,34 @@
+.favorites {
+  width: 98%;
+  height: 210px;
+  margin: auto;
+  border: 1px solid #e0e0e2;
+  border-radius: 15px;
+  .title {
+    height: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    & p {
+      font-family: var(--font-family);
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+  .brands {
+    height: 110px;
+    background-color: #e0e0e2;
+    .swiper-slide{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      & img {
+        object-fit: contain;
+        width: 110px;
+        height: 110px;
+      }
+    }
+  }
+}

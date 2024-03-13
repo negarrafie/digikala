@@ -1,0 +1,23 @@
+.advertisement_3{
+  width: 1330px;
+  height: 310px;
+  margin-right: 10px;
+  display: flex;
+  .photo{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 10px;
+    & div{
+      display: flex;
+      align-items: center;
+      & img{
+        width: 660px;
+        height: 264px;
+        border-radius: 15px;
+        cursor: pointer;
+      }
+    }
+  }
+}

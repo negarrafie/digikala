@@ -1,0 +1,12 @@
+.advertisement_4{
+  width: 98%;
+  height: 170px;
+  margin: 0 auto;
+  margin-top: 15PX;
+  & img{
+    height: inherit;
+    width: 100%;
+    border-radius: 15PX;
+    object-fit: contain;
+  }
+}

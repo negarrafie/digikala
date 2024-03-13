@@ -1,0 +1,145 @@
+.header {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-flow: row wrap;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  .banner {
+    width: inherit;
+    margin-top: unset;
+    height: 60px;
+    & img {
+      width: inherit;
+      height: inherit;
+      object-fit: cover;
+      cursor: pointer;
+    }
+  }
+  .logo {
+    width: 10%;
+    height: 70px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    /* background-color: white; */
+    & img {
+      width: 115px;
+      height: 30px;
+      cursor: pointer;
+    }
+  }
+  .search {
+    width: 75%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    /* background-color: white; */
+    .jostojoo {
+      margin-right: 15px;
+      & input {
+        width: 600px;
+        height: 40px;
+        background-color: #e0e0e2;
+        border-radius: 10px;
+        border: unset;
+        padding-right: 40px;
+        font-family: var(--font-family);
+        font-size: 12px;
+      }
+    }
+  }
+  .register {
+    width: 15%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+    column-gap: 5px;
+    & a {
+      font-family: var(--font-family);
+      text-decoration: none;
+      font-size: 11px;
+      font-weight: bold;
+      color: black;
+      display: flex;
+      border: 1px solid #c0c2c5;
+      border-radius: 7px;
+      justify-content: center;
+      align-items: center;
+      padding: 7px 12px;
+      column-gap: 5px;
+      cursor: pointer;
+      & span {
+        align-items: center;
+        justify-content: center;
+      }
+      & svg {
+        width: 24px;
+        height: 24px;
+        fill: black;
+      }
+    }
+  }
+  .basket {
+    padding-top: 7px;
+    padding-right: 10px;
+  }
+  .menu {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    /* background-color: white; */
+    .menu_right {
+      width: 80%;
+      height: 40px;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+    }
+    & a {
+      align-items: center;
+      text-decoration: none;
+      font-family: var(--font-family);
+      font-weight: bold;
+      font-size: 14px;
+      color: #3f4064;
+      flex-flow: row wrap;
+    }
+    & svg {
+      margin-top: 4px;
+    }
+  }
+  .active {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    padding-right: 15px;
+    & a {
+      flex-flow: row wrap;
+      font-size: 12px;
+      font-weight: unset;
+      font-family: var(--font-family);
+    }
+  }
+  .khat {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    padding-right: 15px;
+  }
+  .menu_left {
+    display: flex;
+    flex-flow: row wrap;
+    .location {
+      font-size: 12px;
+      font-family: var(--font-family);
+      padding-right: 85px;
+    }
+  }
+}

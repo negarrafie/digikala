@@ -1,0 +1,24 @@
+.advertisement_2{
+  width: 1335;
+  height: 320px;
+  display: flex;
+  padding-right: 5px;
+  margin-right: 5px;
+  .photo{
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 10px;
+    width: inherit;
+    & div{
+      width: inherit;
+      display: flex;
+      align-items: center;
+      & img{
+        width: 660px;
+        height: 264px;
+        border-radius: 15px;
+        cursor: pointer;
+      }
+    }
+  }
+}

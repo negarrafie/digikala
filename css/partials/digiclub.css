@@ -1,0 +1,64 @@
+.digiclub {
+  width: 98%;
+  height: 90px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  background-color: #0A7B9E;
+  column-gap: 300px;
+  display: flex;
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+  }
+  .left_digiclub {
+    width: 70%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 3px;
+    & a {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      text-decoration: none;
+      .club__1,
+      .club__2,
+      .club__3 {
+        width: 275px;
+        height: 65px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        column-gap: 5px;
+        font-family: var(--font-family);
+        font-size: 12px;
+        color: black;
+        font-weight: bold;
+        padding-right: 10px;
+        background-color: white;
+      }
+      .club__1{
+        background-image: url(../../images/digiclub/photo1.png);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        object-fit: contain;
+        border-radius: 0 10px 10px 0;
+      }
+      .club__2{
+        background-image: url(../../images/digiclub/photo2.png);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        object-fit: contain;
+      }
+      .club__3{
+        background-image: url(../../images/digiclub/photo3.png);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        object-fit: contain;
+        border-radius: 8px 0 0 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+.digiplus {
+  width: 1330px;
+  height: 430px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  .purple_digiplus {
+    width: inherit;
+    height: 385px;
+    background-color: #941b80;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    .digiplus_right {
+      width: 450px;
+      height: inherit;
+      display: flex;
+      background: url("../../images/digiplus/background.png") center center no-repeat;
+      background-size: cover;
+      .text {
+        width: 215px;
+        margin-right: 35px;
+        margin-top: 30px;
+        height: fit-content;
+        .logo {
+          & img {
+            width: 128px;
+            height: 32px;
+            object-fit: contain;
+          }
+        }
+        .comment {
+          margin-top: 5px;
+          font-family: var(--font-family);
+          font-size: 14px;
+          color: white;
+        }
+        .membership {
+          font-family: var(--font-family);
+          font-size: 14px;
+          color: white;
+          display: flex;
+          flex-flow: row wrap;
+          margin-top: 10px;
+          border: 1px solid white;
+          border-radius: 10px;
+          width: fit-content;
+          align-items: center;
+          .ozviat {
+            width: inherit;
+            margin: 8px 12px;
+            display: flex;
+          }
+          & svg {
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+    .digiplus_left {
+      width: 875px;
+      height: 385px;
+      display: flex;
+      align-items: center;
+      .item {
+        width: 870px;
+        height: 355px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        column-gap: 590px;
+        .text {
+          display: flex;
+          flex-flow: row nowrap;
+          column-gap: 12px;
+          height: fit-content;
+          width: fit-content;
+          margin-top: 13px;
+          margin-right: 12px;
+          .send {
+            font-family: var(--font-family);
+            font-size: 16px;
+            font-weight: bold;
+          }
+        }
+        .text_left {
+          justify-content: flex-end;
+          display: flex;
+          height: 20px;
+          column-gap: 3px;
+          margin-top: 15px;
+          cursor: pointer;
+          .watch {
+            font-family: var(--font-family);
+            font-size: 12px;
+            width: fit-content;
+            margin-top: 4px;
+            color: #b12ba4;
+            font-weight: bold;
+          }
+        }
+        .items {
+          column-gap: 32px;
+          margin-right: 6px;
+          display: flex;
+          flex-flow: row wrap;
+          & img {
+            width: 116px;
+            height: 116px;
+            object-fit: contain;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
